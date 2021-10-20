@@ -102,7 +102,7 @@ my_file.close()
 def my_function(my_argument):
     up = [c.upper() for c in list(my_argument)]
     # up = list(my_argument.upper())
-    return zip(up,list(my_argument))
+    return dict(zip(up,list(my_argument)))
 
 
 my_variable = "abcdefghijklmopqrstuvwxyz"

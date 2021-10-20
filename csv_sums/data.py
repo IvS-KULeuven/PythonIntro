@@ -51,7 +51,7 @@ def get_column_sums(data=[]):
     return column_sums
 
 
-if __name__ == "__main___":
+if __name__ == "__main__":
     my_data = get_file_data('data.txt') 
     print(f"row sums: {get_row_sums(my_data)}")
     print(f"colums sums: {get_column_sums(my_data)}")
