@@ -1,7 +1,3 @@
-import docstrings_functions
-#import csv_data as csvd
+import p4_comments_docstrings
 
-my_data = docstrings_functions.get_file_data("data.txt")
-#my_data = csvd.get_file_data("data.txt")
-
-import foo
+my_data = p4_comments_docstrings.get_file_data("data.txt")
