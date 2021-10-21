@@ -1,5 +1,5 @@
 def my_func():
     pass
 
-if __name__ == 'foo':
+if __name__ == '__main__':
     print("imported as foo")
